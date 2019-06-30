@@ -1,0 +1,8 @@
+# Arquivos gerados pelo LaTeX
+*.out
+*.pdf
+*.aux
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*.fls
