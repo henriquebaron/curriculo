@@ -9,6 +9,7 @@
 % character encoding
 %\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 
+\usepackage[english]{babel}
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
@@ -21,26 +22,22 @@
 \email{henrique.baron@gmail.com}                               % optional, remove / comment the line if not wanted
 \social[linkedin]{henriquebaron}                        % optional, remove / comment the line if not wanted
 \social[github]{henriquebaron}                              % optional, remove / comment the line if not wanted
-\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+\input{textos-idiomas}
 
 \begin{document}
 
 \makecvtitle
 
-\section{Educação}
-\cventry{2019}{Programa de Certificação Profissional}{Massachusetts Institute of Technology}{Cambridge--MA(Estados Unidos)}{}{Participação nos cursos:
+\section{\educacaoname}
+\cventry{2019}{\programacertname}{Massachusetts Institute of Technology}{Cambridge--MA\euaname}{}{\participacaoname:
 \begin{itemize}
 	\item Machine Learning for Big Data and Text Processing: Foundations;
 	\item Advanced Machine Learning for Big Data and Text Processing.
 \end{itemize}}
-\cventry{2011--2019}{Bacharelado em Engenharia Mecânica}{Universidade de Caxias do Sul}{Caxias do Sul}{}{} % arguments 3 to 6 can be left empty
-\cventry{2015}{Bacharealdo em Engenharia Mecânica}{Hochschule Esslingen}{Esslingen (Alemanha)}{}{Semestre de intercâmbio}
-
-\section{Master thesis}
-\cvitem{title}{\emph{Title}}
-\cvitem{supervisors}{Supervisors}
-\cvitem{description}{Short thesis abstract}
+\cventry{2011--2019}{\bachelorengname}{Universidade de Caxias do Sul}{Caxias do Sul\brazilname}{}{}
+\cventry{2015}{\bachelorengname}{Hochschule Esslingen}{Esslingen\alemanhaname}{}{\intercambioname}
 
 \section{Experience}
 \subsection{Vocational}
