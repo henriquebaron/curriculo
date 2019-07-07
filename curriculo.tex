@@ -6,9 +6,8 @@
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
-% character encoding
-%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
@@ -17,7 +16,7 @@
 
 % personal data
 \name{Henrique}{Baron}
-\address{Rua Plácido de Castro, 985}{95084-370}{Brasil}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\address{Rua Plácido de Castro, 985}{95084-370}{\localname}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{+55~(54)~99911-0881}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 \email{henrique.baron@gmail.com}                               % optional, remove / comment the line if not wanted
 \social[linkedin]{henriquebaron}                        % optional, remove / comment the line if not wanted
@@ -41,7 +40,7 @@
 
 \section{\experiencianame}
 % Técnico em P&D - Auttom
-\cventry{02.2016--\atualname}{\tecnicopedname}{Auttom Automação e Robótica Ltda.}{Caxias do Sul\brazilname}{}{\tecnicopeddescricao.\newline{}%
+\cventry{02.2016--\atualname}{\tecnicopedname}{Auttom Automação e Robótica Ltda.}{Caxias do Sul\brazilname}{}{\tecnicopeddescricao.
 \begin{itemize}%
 \item \desenvlinguagensname;
 \item \programacaokukaname;
