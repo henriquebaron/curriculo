@@ -5,6 +5,7 @@
 \newcommand{\brazilname}{}
 \newcommand{\euaname}{~(Estados Unidos)}
 \newcommand{\alemanhaname}{~(Alemanha)}
+\newcommand\suicaname{~(Suíça)}
 \newcommand{\programacertname}{Programa de Certificação Profissional}
 \newcommand{\participacaoname}{Participação nos cursos}
 \newcommand{\bachelorengname}{Bacharelado em Engenharia Mecânica}
@@ -13,6 +14,13 @@
 % Conteúdo da seção de experiência profissional
 \newcommand{\experiencianame}{Experiência profissional}
 \newcommand{\atualname}{atual}
+% Engenheiro de automação - Lonza
+\newcommand{\engautomacaoname}{}
+\newcommand{\engautomacaodescricao}{}
+\newcommand{\projetocomosname}{}
+\newcommand{\programacaodeltavname}{}
+\newcommand{\coordenacaoobraname}{}
+\newcommand{\validacaogmpname}{}
 % Técnico em P&D - Auttom
 \newcommand{\tecnicopedname}{Técnico em Pesquisa e Desenvolvimento}
 \newcommand{\tecnicopeddescricao}{Desenvolvimento de softwares para sistemas didáticos e de automação industrial}
@@ -29,7 +37,8 @@
 % Técnico em automação - Auttom
 \newcommand{\tecnicoautname}{Técnico em Automação}
 \newcommand{\tecnicoautdescricao}{Programação e implantação de sistemas de automação industrial}
-\newcommand{\programacaoclpauttomname}{Programação de CLPs, IHMs e controladores de segurança Schneider Electric, Siemens e Allen Bradley}
+\newcommand{\programacaoclpauttomname}{Programação de CLPs e IHMs Schneider Electric, Siemens e Allen Bradley}
+\newcommand{\programacaosegurancaname}{Programação de controladores de segurança Schneider Electric}
 \newcommand{\testeemcamponame}{Teste e acompanhamento da solução em campo}
 % Certificações
 \newcommand{\certifname}{Certificações}
@@ -56,9 +65,11 @@
 \newcommand{\inglesname}{Inglês}
 \newcommand{\alemaoname}{Alemão}
 \newcommand{\espanholname}{Espanhol}
+\newcommand\francesname{Francês}
 \newcommand{\linguamaename}{Língua materna}
 \newcommand{\fluentename}{Fluente}
 \newcommand{\intermediarioname}{Intermediário}
+\newcommand{\basiconame}{Básico}
 % Outras habilidades
 \newcommand{\outrosname}{Outras competências}
 \newcommand{\sistemassccname}{Sistemas SCC}
@@ -141,12 +152,14 @@
 }
 \addto\captionsgerman{
 	% Dados gerais
-	\renewcommand{\localname}{Caxias do Sul -- Brasilien}
+	%\renewcommand{\localname}{Caxias do Sul -- Brasilien}
+	\renewcommand\localname{Visp}
 	% Educação
 	\renewcommand{\educacaoname}{Bildung}
 	\renewcommand{\brazilname}{~(Brasilien)}
 	\renewcommand{\euaname}{~(USA)}
-	\renewcommand{\alemanhaname}{}
+	\renewcommand{\alemanhaname}{~(Deutschland)}
+	\renewcommand{\suicaname}{~(Schweiz)}
 	\renewcommand{\programacertname}{Zertifikatskurs}
 	\renewcommand{\participacaoname}{Teilnahme in den Kursen}
 	\renewcommand{\bachelorengname}{Bachelor in Maschinenbau}
@@ -155,6 +168,13 @@
 	% Experiência profissional
 	\renewcommand{\experiencianame}{Berufserfahrung}
 	\renewcommand{\atualname}{aktuell}
+	% Engenheiro de automação - Lonza
+	\renewcommand\engautomacaoname{EMR-Ingenieur}
+	\renewcommand\engautomacaodescricao{Planung und Umsetzung von elektro-, mess- und regeltechnische (EMR) Einrichtungen in GMP-Produktionsanlagen}
+	\renewcommand\projetocomosname{Anlagenplanung im Bereich Mess- und Elektrotechnik mittels Comos Software}
+	\renewcommand\programacaodeltavname{Programmierung und Inbetriebnahme von Emerson DeltaV Prozessleitsysteme (PLS)}
+	\renewcommand\coordenacaoobraname{Bauleitung bei den Installationsarbeiten}
+	\renewcommand\validacaogmpname{Validierungsverfahren gemäss Vorschriften der GMP - Good Manufacturing Practices}
 	% Técnico em P&D - Auttom
 	\renewcommand{\tecnicopedname}{Forschungs- und Entwicklungstechniker}
 	\renewcommand{\tecnicopeddescricao}{Softwareentwicklung für Industrieautomatisierung und Lernsysteme}
@@ -165,14 +185,15 @@
 	% Estagiário - Festo
 	\renewcommand{\estagiariofestoname}{Praktikant in Entwicklung}
 	\renewcommand{\estagiariofestodescricao}{Programmierungs- und Konstruktionsaufgaben für Lernsysteme im Bereich Mechatronik}
-	\renewcommand{\programacaoclpfestoname}{Programmierung von SPS und HMI der Marken Siemens, Festo und Allen Bradley}
+	\renewcommand{\programacaoclpfestoname}{Programmierung von Siemens, Festo und Allen Bradley SPS- und HMI-Geräten}
 	\renewcommand{\programacaomitsubishiname}{Programmierung von Mitsubishi Robotern in der MELFA-Sprache}
 	\renewcommand{\projetosmecanicoscreo}{Konstruktion im Creo Parametric Software}
 	% Técnico em automação - Auttom
 	\renewcommand{\tecnicoautname}{Automatisierungstechniker}
 	\renewcommand{\tecnicoautdescricao}{Programmierung und Inbetriebnahme von Automatisierungslösungen in der Industrie}
-	\renewcommand{\programacaoclpauttomname}{Programmierung von SPS, HMI und Sicherheitssteuerungen der Marken Schneider Electric, Siemens und Allen Bradley}
-	\renewcommand{\testeemcamponame}{Test und Inbetriebnahme der Anwendung am Kunde}
+	\renewcommand{\programacaoclpauttomname}{Programmierung von Schneider Electric und Siemens SPS- und HMI-Geräten}
+	\renewcommand{\programacaosegurancaname}{Programmierung von Schneider Electric Sicherheitssteuerungen}	
+	\renewcommand{\testeemcamponame}{Inbetriebnahme am Kunden}
 	% Certificações
 	\renewcommand{\certifname}{Zertifizierungen}
 	\renewcommand{\ourowscname}{Goldmedaille im Fach Mechatronik des WorldSkills Wettbewerbs 2013, in Leipzig}
@@ -195,9 +216,11 @@
 	\renewcommand{\inglesname}{Englisch}
 	\renewcommand{\alemaoname}{Deutsch}
 	\renewcommand{\espanholname}{Spanisch}
+	\renewcommand\francesname{Französisch}
 	\renewcommand{\linguamaename}{Muttersprache}
-	\renewcommand{\fluentename}{Flie{\ss}end}
+	\renewcommand{\fluentename}{Fliessend}
 	\renewcommand{\intermediarioname}{Mittelstufe}
+	\renewcommand\basiconame{Grundlagen}
 	% Outras habilidades
 	\renewcommand{\outrosname}{Andere Kompetenzen}
 	\renewcommand{\sistemassccname}{SCC Systeme}

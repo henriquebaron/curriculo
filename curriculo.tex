@@ -7,7 +7,7 @@
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 \usepackage[utf8]{inputenc}
-\usepackage[german,english,brazil]{babel}
+\usepackage[english,brazil,german]{babel}
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
@@ -15,8 +15,10 @@
 
 % personal data
 \name{Henrique}{Baron}
-\address{Rua Plácido de Castro, 985}{95084-370}{\localname}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
-\phone[mobile]{+55~(54)~99911-0881}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\address{Rua Plácido de Castro, 985}{95084-370}{\localname}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%\address{Mondstrasse 24}{3930}{\localname}
+%\phone[mobile]{+55~(54)~99911-0881}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\phone{+41~78~260~8044}
 \email{henrique.baron@gmail.com}                               % optional, remove / comment the line if not wanted
 \social[linkedin]{henriquebaron}                        % optional, remove / comment the line if not wanted
 \social[github]{henriquebaron}                              % optional, remove / comment the line if not wanted
@@ -39,11 +41,20 @@
 \cventry{2009--2012}{\tecnicoautomacaoname}{Centro Tecnológico de Mecatrônica SENAI}{Caxias do Sul\brazilname}{}{}
 
 \section{\experiencianame}
+% Engenheiro de automação - Lonza
+\cventry{05.2020--\atualname}{\engautomacaoname}{Lonza AG}{Visp\suicaname}{}{\engautomacaodescricao.
+\begin{itemize}%
+\item \projetocomosname;
+\item \programacaodeltavname;
+\item \coordenacaoobraname;
+\item \validacaogmpname.
+\end{itemize}}
 % Técnico em P&D - Auttom
-\cventry{02.2016--\atualname}{\tecnicopedname}{Auttom Automação e Robótica Ltda.}{Caxias do Sul\brazilname}{}{\tecnicopeddescricao.
+\cventry{02.2016--04.2020}{\tecnicopedname}{Auttom Automação e Robótica Ltda.}{Caxias do Sul\brazilname}{}{\tecnicopeddescricao.
 \begin{itemize}%
 \item \desenvlinguagensname;
 \item \programacaokukaname;
+\item \programacaoclpauttomname;
 \item \gestaoprojetosname.
 \end{itemize}}
 % Estagiário - Festo Didactic
@@ -57,6 +68,7 @@
 \cventry{08.2013--01.2015}{\tecnicoautname}{Auttom Automação e Robótica Ltda.}{Caxias do Sul\brazilname}{}{\tecnicoautdescricao.
 \begin{itemize}
 \item \programacaoclpauttomname;
+\item \programacaosegurancaname;
 \item \testeemcamponame;
 \item \suportename.
 \end{itemize}}
@@ -82,6 +94,7 @@
 \cvitemwithcomment{\inglesname}{\fluentename}{}
 \cvitemwithcomment{\alemaoname}{\fluentename}{}
 \cvitemwithcomment{\espanholname}{\intermediarioname}{}
+\cvitemwithcomment{\francesname}{\basiconame}{}
 
 \section{\outrosname}
 \cvdoubleitem{OSs}{Windows, Linux}{\marcacaoname}{\LaTeX}
